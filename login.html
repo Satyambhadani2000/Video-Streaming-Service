@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>LOG IN</title>
+<style>
+*{
+font-family:DokChampa;
+font-size:14px;
+color:black;
+}
+body{
+background-image:url("images/headback.jpg");
+background-size:cover;
+}
+div.main{
+
+width:290px;
+height:210px;
+padding:40px;
+position: absolute;
+top:180px;
+left:470px;
+border-radius: 20px;
+border:2px solid ivory;
+}
+
+.con{
+width:280px;
+}
+.data
+{
+width:100%;
+padding:9px 0;
+margin:6px 0;
+border-top:0;
+border-right:0;
+border-left:0;
+border-bottom:3px solid black;
+border-radius: 10px;
+}
+.login_btn{
+width:60%;
+margin-top: 10px;
+background:ivory;
+padding:9px 29px;
+display:block;
+border:0;
+border-radius:20px;
+background-color: lavender;
+text-decoration: none;
+border-bottom:3px solid black;
+}
+a:hover{
+	background-color: darkgray;
+}
+</style>
+</head>
+<body>
+<center>
+	<h1 style="color: black;font-size: 50px;padding-top: 50px; margin-right: 170px;">MY TUBE</h1>
+<div class="main">
+<p style="color:white;font-size: 140%;font-weight: bold;">LOG IN</p>
+<form class="con" action="a.php" method="POST">
+  <input type="text" id="username" class="data" name="username" placeholder="enter your username">
+  <input type="password" name="password" class="data" placeholder="enter your password" id="password">
+  <input type="submit" class="login_btn" name="" value="LOGIN" onclick="login()" >
+  </form>
+</div>
+</center>
+</body>
+</html>
